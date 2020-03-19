@@ -1,0 +1,32 @@
+[
+     {
+          "nombre":"Avengers: Endgame ",
+          "dato": "2797800564 ",
+          "asistencia": "24.8 ",
+          "taquilla":"1,474 "
+     },
+     {
+          "nombre":"El rey león ",
+          "dato": "1656943394" ,
+          "asistencia": "18 ",
+          "taquilla":"996 "
+     },
+     {
+          "nombre":"Frozen II ",
+          "dato": "1449754006",
+          "asistencia": "9.8 ",
+          "taquilla":"522 "
+     },
+     {
+          "nombre":"Spider-Man: Lejos de casa ",
+          "dato": "1131927996 ",
+          "asistencia": "10.8 ",
+          "taquilla":"611 "
+     },
+     {
+          "nombre":"Capitana Marvel ",
+          "dato": "1128274794 ",
+          "asistencia": "11.5 ",
+          "taquilla":"642 "
+     }
+]

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Moons</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Noto+Serif|Open+Sans+Condensed:300|Rubik&display=swap" rel="stylesheet">
+     
+     
+</head>
+<body  >
+     <header class="encabezado">
+          <div class="encabezado-contenido">
+               <h2>Películas</h2>
+               <img src="./Imagenes/icono.png" alt="cine">
+          </div>
+          
+          <a href="#Graficas">Estadísticas</a>
+     </header>
+     <div class="contenedor">
+
+          <section class="entrada">
+               <img src="./Imagenes/icono-izquierda.png" alt="flecha">
+               <iframe width="660" height="415" src="https://www.youtube.com/embed/bjJvvrKl83M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <img src="./Imagenes/icono-derecha.png" alt="flecha">
+          </section>
+ 
+
+          <main id="Graficas">
+               <h3>Ránking mejores películas 2019</h3>
+               <div class="contenido-main">
+                    
+                    <p>Hemos hecho un listado de lo mejor de 2019, con información sobre las películas con mayor recaudación, 
+                    las que tuvieron mejores ingresos y las favoritas de la gente en el 2019.</p>
+                    <img src="./Imagenes/peliculas.jpg" alt="Peliculas">
+               </div>
+               <div class="contenedor-graficas">
+                    <div id="chart-1">
+                         <div class="titulos-graficas1">
+                              <h3>Mayor recaudación mundial</h3>
+                              <img src="./Imagenes/lineas.png" alt="grafica">
+                         </div>
+                         <div class="datos-graficas1">
+                              <div>
+                                   <h4>Avengers: Endgame</h4>
+                                   <p>2,797,800,564 mdd</p> 
+                              </div>
+                           
+                              <div>
+                                  <h4>Capitana Marvel</h4>
+                                   <p>1,128,274,794 mdd</p> 
+                              </div>
+                              
+                         </div>
+                         
+                    </div>
+                    <div id="chart-2">
+                         <div class="titulos-graficas2">
+                              <h3>Asistencia en México</h3>
+                              <img src="./Imagenes/lineas.png" alt="grafica">
+                         </div>
+                         <div class="datos-graficas2">
+                              <div>
+                                   <h4>Avengers: Endgame</h4>
+                                   <p>24.8 Millones de Asistentes</p>
+                              </div>
+                            
+                              <div>
+                                   <h4>Frozen II</h4>
+                                   <p>18 Millones de Asistentes</p>
+                              </div>
+                              
+                         </div>
+                    </div>
+                    <div id="chart-3">
+                         <div class="titulos-graficas3">
+                              <h3>Recaudación en México</h3>
+                              <img src="./Imagenes/lineas.png" alt="grafica">
+                         </div>
+                         <div class="datos-graficas3">
+                              <div>
+                                  <h4>Avengers: Endgame</h4>
+                                   <p>$1,474 mdp</p> 
+                              </div>
+                              
+                              <div>
+                                   <h4>Frozen II</h4>
+                                   <p>$522 mdp</p> 
+                              </div>
+                              
+                         </div>
+                    </div>
+               </div>
+          
+          </main>
+     
+          <section class="resumen">
+               <h3>Las 3 películas con mayor recaudación</h3>
+               <div class="top-peliculas">
+                    <div class="info">
+                         <h5>Avengers: Endgame</h5>
+                         <p>Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados 
+                              para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.</p>
+                    </div>     
+                    <img src="./Imagenes/marvel.jpg" alt="Marvel">
+               </div>
+               <div class="top-peliculas">
+                    <div class="info">
+                         <h5>El rey león</h5>
+                         <p>Tras la muerte de su padre, Simba vuelve a enfrentar a su malvado tío, 
+                              Scar, y reclamar el trono de rey.</p>
+                    </div>
+                    <img src="./Imagenes/leon.jpg" alt="El rey leon">
+               </div>
+               
+               <div class="top-peliculas">
+                    <div class="info">
+                         <h5>Star Wars: Episodio IX - El ascenso de Skywalker</h5>
+                         <p>La Resistencia sobreviviente se enfrenta a la Primera Orden, y Rey, Finn, 
+                              Poe y el resto de los héroes encararán nuevos retos y una batalla final 
+                              con la sabiduría de las generaciones anteriores.</p>
+                    </div>
+                    <img src="./Imagenes/star-wars.jpeg" alt="star wars">
+               </div>
+          </section>
+     </div>
+    
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+ <script src="app.js"></script>
+
+   
+  
+</body>
+</html>

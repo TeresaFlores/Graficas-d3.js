@@ -1,0 +1,212 @@
+.contenedor{
+     background-color: black;
+     margin: 0px;
+     text-align: center;
+    
+}
+.encabezado{
+    height: 75px;
+    background-color:#D8D8D8; 
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+.encabezado img{
+     width: auto;
+     height: 50px;
+ 
+}
+.encabezado a{
+     font-family: 'Open Sans Condensed', sans-serif;
+     text-decoration: none;
+     color: black;
+     
+}
+.encabezado-contenido{
+     display: flex;
+     justify-content: space-around;
+     height: 50px;
+     width: 270px;
+     align-items: center;
+     
+}
+
+.entrada{
+     padding: 30px;
+     display: flex;
+     justify-content: center;
+     align-items:center ;
+}
+.entrada img{
+     padding: 20px;
+}
+
+main{
+     margin: 50px;
+     padding: 30px;
+     background-color: white;
+     color: black;
+     border-radius: 5px;
+     display: inline-block;
+     justify-content: center;
+}
+.contenido-main{
+     background-color:rgb(0,0,0,0.1);
+     display: flex;
+     height: 100px;
+     justify-content: center;
+     align-items: center;
+     text-align: justify;
+     font-family: 'Open Sans Condensed', sans-serif;
+     padding: 80px;
+     font-size: 22px;
+     border-radius: 5px;
+}
+.contenido-main img{
+     width: 300px;
+     height: 200px;
+     padding: 20px;
+}
+.contenedor-graficas{
+     width: 1400px;
+     height: 400px;
+     margin-top: 20px;
+     background-color:rgb(0,0,0,0.1);
+     border-radius: 5px;
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     position: relative;
+}
+
+
+.resumen{
+     background-color: white;
+     color: black;
+     margin: 100px;
+     display: inline-block;
+     justify-content: center;
+     border-radius: 5px;
+}
+h3{
+     font-family: 'Liu Jian Mao Cao', cursive;
+     font-size: 35px;
+}
+.top-peliculas{
+     background-color:rgb(0,0,0,0.1);
+     border-radius: 5px;
+     width: 900px;
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+     margin-top: 20px;
+}
+.info{
+     width: 400px;
+     height: 200px;
+     text-align: center;
+     margin: 10px;
+}
+.info h5{
+     font-family: 'Noto Serif', serif;
+     font-size: 20px;
+}
+.info p{
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 18px;
+     margin: 5px; 
+     text-align: justify;
+}
+.top-peliculas img{
+     width: 150px;
+     height: 200px;
+     margin: 10px;
+     
+}
+
+
+
+
+/* Diseño de gráficas */
+svg{
+    
+     height: 350px;
+     border: 1px solid #A4A4A4; 
+     border-radius: 5px;
+}
+
+.titulos-graficas1 {
+     width: 120px;
+     display: inline-block;
+     align-items:baseline;
+     position: absolute;
+     top:0;
+     left: 0;
+     transform: translateX(145%) translateY(60%);  
+}
+.datos-graficas1{
+     position: absolute;
+     top:0;
+     left: 0;
+     transform: translateX(47%) translateY(480%);
+}
+.titulos-graficas2 {
+     width: 120px;
+     display: inline-block;
+     align-items:baseline;
+     position: absolute;
+     top:0;
+     left: 0;
+     transform: translateX(538%) translateY(70%);  
+}
+.datos-graficas2{
+     position: absolute;
+     top:0;
+     left: 0;
+     transform: translateX(240%) translateY(480%);
+
+}
+.titulos-graficas3 {
+     width: 120px;
+     display: inline-block;
+     align-items:baseline;
+     position: absolute;
+     top:0;
+     left: 0;
+     transform: translateX(920%) translateY(60%);  
+}
+.datos-graficas3{
+     position: absolute;
+     top:0;
+     left: 0;
+     transform: translateX(430%) translateY(480%);
+}
+.contenedor-graficas h3{
+      font-family: 'Rubik', sans-serif;
+     font-size: 12px;
+     text-align: center;
+     color:#585858;
+}
+.contenedor-graficas img{
+     width: 100px;
+     height: 100px;
+}
+.contenedor-graficas p, h4{
+     font-size: 10px;
+     font-family: 'Open Sans Condensed', sans-serif;
+     width: 120px;
+     height: auto;
+     text-align: center;   
+}
+.contenedor-graficas div{
+     display: inline-block;
+     justify-content: space-between;
+}
+
+.arc path {
+     stroke-width: -5px;
+   }
+
